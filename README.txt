@@ -7,6 +7,5 @@
 </html>
 
 
-//thay doi tren may
 //thay doi tren sever
 
