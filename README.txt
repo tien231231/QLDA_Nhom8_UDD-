@@ -1,35 +1,7 @@
-package com.hamker.quizer
-
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-
-import kotlinx.android.synthetic.main.activity_main.*
-
-var name = ""
-
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        btnStartQuiz.setOnClickListener {
-            if (tvName.text.toString().isEmpty()) {
-                tvNameParent.error = "Chưa nhập họ và tên"
-            } else {
-                name = tvName.text.toString()
-                startActivity(
-                    Intent(
-                        this,
-                        QuestionsActivity::class.java,
-                    )
-                )
-            }
-        }
-    }
-<<<<<<< HEAD
-}// thay đổi trên máy
-=======
-}
-//thay doi
->>>>>>> 0f137792eae02402c6b981996754e470617b426d
+<html>
+ <head>
+ </head>
+ <body>
+   <h1>Hello World<h1>
+ </body>
+</html>
