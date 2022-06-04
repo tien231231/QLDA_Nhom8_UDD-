@@ -27,4 +27,4 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-}
+}// thay đổi trên máy
