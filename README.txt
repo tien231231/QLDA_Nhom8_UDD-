@@ -27,4 +27,9 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+<<<<<<< HEAD
 }// thay đổi trên máy
+=======
+}
+//thay doi
+>>>>>>> 0f137792eae02402c6b981996754e470617b426d
